@@ -5,3 +5,7 @@ end
 if uwsm check may-start
 	exec uwsm start hyprland.desktop
 end
+
+function fish_greeting
+	cat ~/to-do-wellcome-list
+end
